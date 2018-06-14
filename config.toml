@@ -25,7 +25,7 @@ version = "v1.10"
 githubbranch = "master"
 docsbranch = "master"
 deprecated = false
-currentUrl = "https://unofficial.client-go.io/docs/home/"
+currentUrl = "https://unofficial.client-go.io/"
 nextUrl = "http://client-go-vnext-staging.netlify.com/"
 githubWebsiteRepo = "github.com/client-go/unofficial-docs"
 

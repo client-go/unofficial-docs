@@ -4,7 +4,7 @@
 	{{ partial "head.html" . }}
 	</head>
 	<body>
-		{{ partialCached "header.html" . "docs" }}
+		{{ partialCached "header.html" . }}
 		{{ block "hero" . }}
 		<!--  HERO  -->
 		<section id="hero" class="light-text no-sub">
@@ -15,7 +15,7 @@
 		<section id="encyclopedia">
 			{{ block "side-menu" . }}<div id="docsToc" style="display:none;"></div>{{ end }}
 			<div id="{{ block "content-id" . }}docsContent{{ end }}">
-				{{ block "content" . }}{{ end }}
+				{{ block "main" . }}{{ end }}
 				<div class="issue-button-container">
 					<p><a href=""><img src="https://kubernetes-site.appspot.com/UA-36037335-10/GitHub/{{ .Path }}?pixel" alt="Analytics" /></a></p>
 					{{ if and (ne .Kind "404") (not (strings.Contains .Path "search")) }}

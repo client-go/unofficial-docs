@@ -2,7 +2,7 @@
 {{ partial "docs/side-menu.html" . }}
 {{ end }}
 
-{{ define "content" }}
+{{ define "main" }}
 <h1>{{ .Title }}</h1>
 <link href="{{ "css/glossary.css" | relURL }}" rel="stylesheet">
 <script src="{{ "js/glossary.js" | relURL }}"></script>
@@ -35,7 +35,7 @@
 	{{ $.Scratch.Add "tag_classes" (printf "tag-%s " .)  }}
 	{{ end }}
 	{{ $term_identifier := (printf "term-%s" .Params.id) }}
-	
+
 	<li class="{{ $.Scratch.Get "tag_classes" }} hide" data-show-count="0">
 		<div id="{{ $term_identifier }}" class="term-anchor"></div>
 		<div>

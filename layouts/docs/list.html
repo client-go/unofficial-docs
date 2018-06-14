@@ -1,4 +1,4 @@
-{{ define "content" }}
+{{ define "main" }}
 	 {{ with .Content }}
 	 {{ partial "docs/content_page" (dict "ctx" $ "page" $) }}
 	 {{ else }}
