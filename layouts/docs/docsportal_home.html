@@ -1,0 +1,12 @@
+{{ define "content" }}
+    {{ if not .Params.notitle }}
+	 <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ template "docs-portal-user-journey" . }}
+    {{ partial "docs/browse.html" (where .Parent.Sections ".Params.toc_hide" "!=" true) }}
+{{ end }}
+
+{{ define "content-id" }}content{{ end }}
+
+{{ define "docs-portal-user-journey" }}
+{{ end }}
