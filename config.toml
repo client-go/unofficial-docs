@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://unofficial.client-go.io/"
 languageCode = "en-us"
 title = "client-go documentation"
 
@@ -25,13 +25,13 @@ version = "v1.10"
 githubbranch = "master"
 docsbranch = "master"
 deprecated = false
-currentUrl = "https://kubernetes.io/docs/home/"
-nextUrl = "http://kubernetes-io-vnext-staging.netlify.com/"
-githubWebsiteRepo = "github.com/kubernetes/website"
+currentUrl = "https://unofficial.client-go.io/docs/home/"
+nextUrl = "http://client-go-vnext-staging.netlify.com/"
+githubWebsiteRepo = "github.com/client-go/unofficial-docs"
 
 [[params.versions]]
 fullversion = "v1.10.3"
 version = "v1.10"
 githubbranch = "v1.10.3"
 docsbranch = "release-1.10"
-url = "https://kubernetes.io"
+url = "https://unofficial.client-go.io"
