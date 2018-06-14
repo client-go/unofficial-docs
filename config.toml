@@ -1,0 +1,37 @@
+baseURL = "https://unofficial.client-go.io/"
+languageCode = "en-us"
+title = "client-go documentation"
+
+contentDir = "content/en"
+
+[languages]
+[languages.en]
+title = "client-go documentation"
+description = "Production-Grade Container Orchestration"
+languageName ="English"
+# Weight used for sorting.
+weight = 1
+
+[params]
+
+time_format_blog = "Monday, January 02, 2006"
+description = "Production-Grade Container Orchestration"
+showedit = true
+
+latest = "v1.10"
+
+fullversion = "v1.10.3"
+version = "v1.10"
+githubbranch = "master"
+docsbranch = "master"
+deprecated = false
+currentUrl = "https://unofficial.client-go.io/"
+nextUrl = "http://client-go-vnext-staging.netlify.com/"
+githubWebsiteRepo = "github.com/client-go/unofficial-docs"
+
+[[params.versions]]
+fullversion = "v1.10.3"
+version = "v1.10"
+githubbranch = "v1.10.3"
+docsbranch = "release-1.10"
+url = "https://unofficial.client-go.io"

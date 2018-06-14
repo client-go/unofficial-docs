@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ if not .Params.notitle }}
+	 <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ partial "docs/browse.html" (where ((.Site.GetPage "section" "docs").Sections) ".Params.toc_hide" "!=" true) }}
+{{ end }}
+
+{{ define "content-id" }}content{{ end }}
