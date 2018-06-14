@@ -495,7 +495,7 @@ https://kubernetes-io-v1-7.netlify.com/*    https://v1-7.docs.kubernetes.io/:spl
 
 /docs/reference/generated/kubeadm/     /docs/reference/setup-tools/kubeadm/kubeadm/ 301
 
-/editdocs/     /docs/home/contribute/     301 
+/editdocs/     /docs/contribute/editdocs/     301
 
 /docs/admin/accessing-the-api/     /docs/reference/access-authn-authz/controlling-access/ 301
 /docs/admin/admission-controllers/     /docs/reference/access-authn-authz/admission-controllers/ 301

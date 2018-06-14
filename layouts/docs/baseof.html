@@ -34,7 +34,7 @@
 					{{ end }}
 					{{ end }}
 					{{ if not .Params.noedit }}
-					<a href="{{ printf "%s#%s" ("docs/editdocs" | relURL) .Path | safeURL }}" class="button issue">Edit this Page</a>
+					<a href="{{ printf "%s#%s" ("editdocs" | relURL) .Path | safeURL }}" class="button issue">Edit this Page</a>
 					{{ end }}
 				</div>
 			</div>
