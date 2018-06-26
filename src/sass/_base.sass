@@ -918,12 +918,14 @@ dd
 
 	ul > li
 		list-style: disc !important
+		/* These are being clobbered and are affecting <ul> nested inside <ol> */
 
 	ol > li
 		list-style: decimal !important
 
 	ul.task-list > li
 		list-style-type: none !important
+		/* No bullets for checklists */
 
 	ul, ol
 		margin: 20px 0
@@ -941,6 +943,7 @@ dd
 	& > ul, & > ol
 		margin-bottom: 40px !important
 		border-bottom: 1px solid #eee !important
+		/* A little extra margin and visual separation for consecutive top-level lists */
 
 	table
 		width: 100%
