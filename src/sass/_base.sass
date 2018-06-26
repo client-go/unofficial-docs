@@ -916,11 +916,14 @@ dd
 	.includecode pre
 		margin: 0 !important
 
-	ul li
-		list-style: disc
+	ul > li
+		list-style: disc !important
 
-	ol li
-		list-style: decimal
+	ol > li
+		list-style: decimal !important
+
+	ul.task-list > li
+		list-style-type: none !important
 
 	ul, ol
 		margin: 20px 0
@@ -934,6 +937,10 @@ dd
 		margin-bottom: 0.75em
 		font-size: 16px
 		line-height: 1.75em
+
+	& > ul, & > ol
+		margin-bottom: 40px !important
+		border-bottom: 1px solid #eee !important
 
 	table
 		width: 100%
@@ -1133,7 +1140,7 @@ $feature-box-div-margin-bottom: 40px
 #video
 	width: 100%
 	position: relative
-	background-image: url(/images/kub_video_banner_box.jpg)
+	background-image: url(/images/kub_video_banner_homepage.jpg)
 	background-position: center center
 	background-size: cover
 
